@@ -5,11 +5,11 @@ Print tela desktop com class java.awt.Robot
 
 #Compilar file java
 
-terminal ou cmd.
+##Terminal ou cmd.
 
   > javac PrintTela.java
 
-execultar  PrintTela.class
+##Execultar  PrintTela.class
 
   > java PrintTela
 
