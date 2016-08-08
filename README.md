@@ -7,9 +7,9 @@ Print tela desktop com class java.awt.Robot
 
 terminal ou cmd.
 
-  \\>javac PrintTela.java
+  >\>javac PrintTela.java
 
 execultar  PrintTela.class
 
-  \\>java PrintTela
+  >\>java PrintTela
 
