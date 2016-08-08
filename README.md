@@ -9,7 +9,7 @@ Print tela desktop com class java.awt.Robot
 
   > javac PrintTela.java
 
-##Execultar  PrintTela.class
+##Executar  PrintTela.class
 
   > java PrintTela
 
