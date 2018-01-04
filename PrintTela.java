@@ -7,20 +7,13 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
  
-
 class PrintTela {
- 
     public static void main(String[] args) {
-        try {
-
-
-		
-
+        try {	
             Robot robot = new Robot();
             String format = "png";
             String fileName = "PrintScreenshot." + format;
 	    
-
 	    /*configurando o tamanho da tela
     	    int x = 100;
     	    int y = 100;
@@ -30,10 +23,9 @@ class PrintTela {
             */
 
 	    //capiturando o tamanho da tela
-              Rectangle telaDesktop = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+            Rectangle telaDesktop = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    //
-
-	
+		
             BufferedImage screenFullImage = robot.createScreenCapture(telaDesktop);
             ImageIO.write(screenFullImage, format, new File(fileName));
              
